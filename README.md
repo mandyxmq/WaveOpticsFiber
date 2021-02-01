@@ -9,6 +9,10 @@ More information about this project can be found at the [project website](https:
 
 We use the Boundary Element Method (BEM) to conduct a full wave simulation of plane wave scattered by an infinitely long cylinder (extruded from an arbitrary cross-section).
 
+## Dependencies
+This implementation depends on eigen3 (included as a submodule), OpenMP and the [complex_bessel library](https://github.com/joeydumont/complex_bessel). Please install OpenMP and and the complex_bessel library first.
+
+
 ## Usage
 1. To compile the simulation code in Linux, first clone the repository
     ```
