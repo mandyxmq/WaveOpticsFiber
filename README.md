@@ -56,10 +56,10 @@ a. Elliptical cross-section
 
 	Example:
 	```
-	 ./Sim silk 0 ../crosssection/xvec_silk.txt ../crosssection/yvec_silk.txt 360 100 50 ../ior/silkK_double.binary
+	 ./Sim silk 0 ../crosssection/xvec_silk.txt ../crosssection/yvec_silk.txt 360 100 50 1.55 ../ior/silkK_double.binary
 	 ```
  
-	This command will simulate plane waves incident on a lossy silk cylinder. The discretization information is contained in the files ../crosssection/xvec_silk.txt and ../crosssectionyvec_silk.txt. The simulation contains 50 wavelength samples raning from 400nm to 700nm, 100 incident theta angles ranging from 0 to Pi/2 and 360 outgoing azimuthal angles ranging from 0 to 2Pi. The scattering distribution, pdf, cdf, cross-section ratio data will be saved to build/silk. The incident azimuthal angle also ranges from 0 to 2Pi and has the same number of samples as the outgoing azimuthal samples. The wavelength dependent imaginary part of the cylinder ior is in ../ior/silkK_double.binary.
+	This command will simulate plane waves incident on a lossy silk cylinder. The discretization information is contained in the files ../crosssection/xvec_silk.txt and ../crosssectionyvec_silk.txt. The simulation contains 50 wavelength samples raning from 400nm to 700nm, 100 incident theta angles ranging from 0 to Pi/2 and 360 outgoing azimuthal angles ranging from 0 to 2Pi. The scattering distribution, pdf, cdf, cross-section ratio data will be saved to build/silk. The incident azimuthal angle also ranges from 0 to 2Pi and has the same number of samples as the outgoing azimuthal samples. The real part of the cylinder ior is 1.55. The wavelength dependent imaginary part of the cylinder ior is in ../ior/silkK_double.binary.
 
 ## Contact
 If you have any questions regarding this work, please contact Mandy Xia (mandyxia AT cs.cornell.edu).
