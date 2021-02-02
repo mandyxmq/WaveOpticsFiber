@@ -8,11 +8,9 @@
 
 #include "MoM_ob.hpp"
 #include <math.h>
-#include <boost/math/special_functions/hankel.hpp>
 #include <fstream>
 
 const double consb = 1.781/2.0;
-namespace bm = boost::math;
 namespace sp = sp_bessel;
 
 MoM_ob::~MoM_ob(){}

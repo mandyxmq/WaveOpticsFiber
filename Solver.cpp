@@ -7,7 +7,6 @@
 //
 #include "Solver.hpp"
 #include <math.h>
-#include <boost/math/special_functions/hankel.hpp>
 
 #define realnum 29971
 extern double hankelre[TABLE_SIZE];
@@ -16,7 +15,6 @@ extern double dhankelre[TABLE_SIZE];
 extern double dhankelim[TABLE_SIZE];
 
 const std::complex<double> cunit(0,1);
-namespace bm = boost::math;
 namespace sp = sp_bessel;
 
 // ellipse, radius is longer axis, radius2 is shorter axis
