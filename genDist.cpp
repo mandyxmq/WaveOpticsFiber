@@ -93,7 +93,6 @@ std::vector<Eigen::Vector3d> readgeometry(std::string xfile, std::string yfile){
 }
 
 void readiorimag(std::vector<double> &kval, int num, std::string filename){
-  filename = "../ior/" + filename;
   std::cout<<"iorfile "<<filename<<std::endl;
   std::ifstream myfile(filename, std::ios::in|std::ios::binary);
   myfile.read((char*)&kval[0], num * sizeof(double));
