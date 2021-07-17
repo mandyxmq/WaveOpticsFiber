@@ -2,7 +2,7 @@
 # WaveOpticsFiber
 
 ## Overview
-This repository includes the major implementation of the SIGGRAPH Asia 2020 paper
+This repository includes the simulation implementation of the SIGGRAPH Asia 2020 paper
 **A Wave Optics Based Fiber Scattering Model**, by Mengqi (Mandy) Xia, Bruce Walter, Eric Michielssen, David Bindel and Steve Marschner.
 
 More information about this project can be found at the [project website](https://mandyxmq.github.io/research/wavefiber.html).
