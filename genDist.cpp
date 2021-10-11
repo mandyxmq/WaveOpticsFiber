@@ -315,7 +315,7 @@ int main(int argc, const char * argv[]) {
     std::ofstream out(filename, std::ios::out|std::ios::binary|std::ios_base::app);
     out.write((char *) &vect(0), sizeof(float)*nb_samples);
 
-    filename2 = output + "TEM_"+std::to_string(i)+"_pdf.binary";
+    filename2 = output + "TEM_"+std::to_string(i)+"_nor.binary";
     std::ofstream out2(filename2, std::ios::out|std::ios::binary|std::ios_base::app);
     out2.write((char *) &pdf(0), sizeof(float)*nb_samples);
 
