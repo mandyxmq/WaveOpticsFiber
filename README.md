@@ -5,7 +5,7 @@
 This repository includes the simulation implementation of the SIGGRAPH Asia 2020 paper
 **A Wave Optics Based Fiber Scattering Model**, by Mengqi (Mandy) Xia, Bruce Walter, Eric Michielssen, David Bindel and Steve Marschner.
 
-More information about this project can be found at the [project website](https://mandyxmq.github.io/research/wavefiber.html). The rendering code can be found in the repo WaveOpticsFiberRendering.
+More information about this project can be found at the [project website](https://mandyxmq.github.io/research/wavefiber.html). The rendering code can be found in the repo [WaveOpticsFiberRendering](https://github.com/mandyxmq/WaveOpticsFiberRendering).
 
 We use the Boundary Element Method (BEM) to conduct a full wave simulation of plane wave scattered by an infinitely long cylinder (extruded from an arbitrary cross-section).
 
